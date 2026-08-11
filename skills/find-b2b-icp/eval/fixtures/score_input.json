@@ -1,0 +1,71 @@
+{
+  "offer": "AI workflow automation for repetitive operations",
+  "research_date": "2026-07-10",
+  "candidates": [
+    {
+      "name": "US e-commerce brands with 20-100 staff and rising support volume",
+      "definition": {"industry": "e-commerce brands", "company_size": "20-100 staff", "geography": "United States", "operating_condition": "rising support volume", "trigger": "operations hiring or support backlog growth", "affected_process": "order, returns, and support operations"},
+      "active_disqualifiers": [],
+      "scores": {
+        "pain_severity": {"score": 9, "evidence_ids": ["E001", "E002"], "reason": "Recurring service and operations load has visible cost."},
+        "trigger_strength": {"score": 8, "evidence_ids": ["E003"], "reason": "Current operations hiring is an observable trigger."},
+        "ability_to_pay": {"score": 8, "evidence_ids": ["E004"], "reason": "Existing software and service spend supports a project budget."},
+        "reachability": {"score": 8, "evidence_ids": ["E001"], "reason": "Founder and operations titles are identifiable."},
+        "solution_delivery_fit": {"score": 9, "evidence_ids": ["E004", "E005"], "reason": "The workflows match existing automation delivery."},
+        "time_to_revenue": {"score": 7, "evidence_ids": ["E005"], "reason": "A scoped pilot can avoid enterprise procurement."},
+        "deal_potential": {"score": 6, "evidence_ids": ["E006"], "reason": "Good initial project with moderate expansion."}
+      }
+    },
+    {
+      "name": "UK marketing agencies with 10-50 staff and reporting bottlenecks",
+      "definition": {"industry": "marketing agencies", "company_size": "10-50 staff", "geography": "United Kingdom", "operating_condition": "manual client reporting", "trigger": "recent account growth", "affected_process": "client reporting and attribution"},
+      "active_disqualifiers": [],
+      "scores": {
+        "pain_severity": {"score": 7, "evidence_ids": ["E007", "E008"], "reason": "Reporting work is recurring but rarely existential."},
+        "trigger_strength": {"score": 6, "evidence_ids": ["E009"], "reason": "Account growth creates pressure but not always budget."},
+        "ability_to_pay": {"score": 6, "evidence_ids": ["E010"], "reason": "Budgets exist but margins constrain spend."},
+        "reachability": {"score": 9, "evidence_ids": ["E007"], "reason": "Owners are easy to identify and contact."},
+        "solution_delivery_fit": {"score": 8, "evidence_ids": ["E010", "E011"], "reason": "Reporting automation is a close delivery match."},
+        "time_to_revenue": {"score": 8, "evidence_ids": ["E011"], "reason": "Owner-led buying supports a fast pilot."},
+        "deal_potential": {"score": 5, "evidence_ids": ["E012"], "reason": "Projects may remain small."}
+      }
+    },
+    {
+      "name": "EU Series B SaaS companies replacing manual RevOps workflows",
+      "definition": {"industry": "B2B SaaS", "company_size": "50-200 staff", "geography": "European Union", "operating_condition": "manual CRM governance", "trigger": "new revenue operations leader", "affected_process": "forecasting and revenue data governance"},
+      "active_disqualifiers": [],
+      "scores": {
+        "pain_severity": {"score": 8, "evidence_ids": ["E013", "E014"], "reason": "Revenue data problems affect forecasting and retention."},
+        "trigger_strength": {"score": 8, "evidence_ids": ["E015"], "reason": "A new RevOps leader is a strong current trigger."},
+        "ability_to_pay": {"score": 9, "evidence_ids": ["E016"], "reason": "The segment has clear software and consulting budget."},
+        "reachability": {"score": 6, "evidence_ids": ["E013"], "reason": "Buyers are identifiable but crowded by vendors."},
+        "solution_delivery_fit": {"score": 6, "evidence_ids": ["E016", "E017"], "reason": "Security and integration requirements add delivery work."},
+        "time_to_revenue": {"score": 4, "evidence_ids": ["E017"], "reason": "Security and consensus extend the sales cycle."},
+        "deal_potential": {"score": 9, "evidence_ids": ["E018"], "reason": "Large initial and expansion potential."}
+      }
+    }
+  ],
+  "evidence": [
+    {"evidence_id": "E001", "candidate": "US e-commerce brands with 20-100 staff and rising support volume", "evidence_type": "VOICE", "claim": "Operators describe support load as a recurring constraint.", "quote": "Support volume keeps growing faster than the team.", "role_context": "Operations leader", "source_name": "Synthetic buyer forum A", "source_url": "https://example.com/e001", "published_at": "2026-06-10", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E002", "candidate": "US e-commerce brands with 20-100 staff and rising support volume", "evidence_type": "VOICE", "claim": "Returns create manual coordination.", "quote": "Returns touch three systems before anyone can answer the customer.", "role_context": "E-commerce manager", "source_name": "Synthetic buyer forum B", "source_url": "https://example.org/e002", "published_at": "2026-05-22", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E003", "candidate": "US e-commerce brands with 20-100 staff and rising support volume", "evidence_type": "FACT", "claim": "The fixture includes a current operations hiring trigger.", "source_name": "Synthetic job board", "source_url": "https://jobs.example/e003", "published_at": "2026-07-01", "accessed_at": "2026-07-10", "freshness_class": "trigger"},
+    {"evidence_id": "E004", "candidate": "US e-commerce brands with 20-100 staff and rising support volume", "evidence_type": "FACT", "claim": "The workflow uses common commerce, help desk, and CRM systems.", "source_name": "Synthetic stack directory", "source_url": "https://stack.example/e004", "published_at": "2026-03-01", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E005", "candidate": "US e-commerce brands with 20-100 staff and rising support volume", "evidence_type": "COUNTEREVIDENCE", "claim": "Some brands have heavily customized commerce stacks.", "implication": "Integration discovery is required before promising a fixed scope.", "source_name": "Synthetic implementation study", "source_url": "https://implementation.example/e005", "published_at": "2026-02-01", "accessed_at": "2026-07-10", "freshness_class": "market"},
+    {"evidence_id": "E006", "candidate": "US e-commerce brands with 20-100 staff and rising support volume", "evidence_type": "FACT", "claim": "The fixture assumes moderate expansion beyond the first workflow.", "source_name": "Synthetic market report", "source_url": "https://market.example/e006", "published_at": "2025-12-01", "accessed_at": "2026-07-10", "freshness_class": "market"},
+
+    {"evidence_id": "E007", "candidate": "UK marketing agencies with 10-50 staff and reporting bottlenecks", "evidence_type": "VOICE", "claim": "Agency owners describe reporting as repetitive.", "quote": "Reporting day consumes the same people who should improve campaigns.", "role_context": "Agency owner", "source_name": "Synthetic agency community A", "source_url": "https://agency.example/e007", "published_at": "2026-06-05", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E008", "candidate": "UK marketing agencies with 10-50 staff and reporting bottlenecks", "evidence_type": "VOICE", "claim": "Clients distrust inconsistent data.", "quote": "Every platform tells a different story.", "role_context": "Client services director", "source_name": "Synthetic agency community B", "source_url": "https://agencyforum.example/e008", "published_at": "2026-05-19", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E009", "candidate": "UK marketing agencies with 10-50 staff and reporting bottlenecks", "evidence_type": "FACT", "claim": "A current client reporting hire is the fixture trigger.", "source_name": "Synthetic job board", "source_url": "https://jobs.example/e009", "published_at": "2026-06-29", "accessed_at": "2026-07-10", "freshness_class": "trigger"},
+    {"evidence_id": "E010", "candidate": "UK marketing agencies with 10-50 staff and reporting bottlenecks", "evidence_type": "FACT", "claim": "Common agency reporting tools expose APIs.", "source_name": "Synthetic tool documentation", "source_url": "https://docs.example/e010", "published_at": "2026-01-15", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E011", "candidate": "UK marketing agencies with 10-50 staff and reporting bottlenecks", "evidence_type": "COUNTEREVIDENCE", "claim": "Small agencies can resist projects with unclear immediate payback.", "implication": "The offer needs a narrow paid pilot and visible labor baseline.", "source_name": "Synthetic agency benchmark", "source_url": "https://benchmark.example/e011", "published_at": "2025-11-20", "accessed_at": "2026-07-10", "freshness_class": "market"},
+    {"evidence_id": "E012", "candidate": "UK marketing agencies with 10-50 staff and reporting bottlenecks", "evidence_type": "FACT", "claim": "The fixture models modest contract expansion.", "source_name": "Synthetic services report", "source_url": "https://services.example/e012", "published_at": "2025-10-01", "accessed_at": "2026-07-10", "freshness_class": "market"},
+
+    {"evidence_id": "E013", "candidate": "EU Series B SaaS companies replacing manual RevOps workflows", "evidence_type": "VOICE", "claim": "Revenue operators describe CRM governance problems.", "quote": "Forecast reviews start with arguments about which fields are trustworthy.", "role_context": "Revenue operations leader", "source_name": "Synthetic RevOps community A", "source_url": "https://revops.example/e013", "published_at": "2026-06-12", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E014", "candidate": "EU Series B SaaS companies replacing manual RevOps workflows", "evidence_type": "VOICE", "claim": "Manual governance delays analysis.", "quote": "We clean the same pipeline fields before every board meeting.", "role_context": "Sales operations manager", "source_name": "Synthetic RevOps community B", "source_url": "https://salesops.example/e014", "published_at": "2026-05-30", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E015", "candidate": "EU Series B SaaS companies replacing manual RevOps workflows", "evidence_type": "FACT", "claim": "A newly hired RevOps leader is the fixture trigger.", "source_name": "Synthetic company announcement", "source_url": "https://company.example/e015", "published_at": "2026-06-25", "accessed_at": "2026-07-10", "freshness_class": "trigger"},
+    {"evidence_id": "E016", "candidate": "EU Series B SaaS companies replacing manual RevOps workflows", "evidence_type": "FACT", "claim": "The segment uses paid CRM and analytics systems.", "source_name": "Synthetic stack directory", "source_url": "https://stack.example/e016", "published_at": "2026-02-10", "accessed_at": "2026-07-10", "freshness_class": "company"},
+    {"evidence_id": "E017", "candidate": "EU Series B SaaS companies replacing manual RevOps workflows", "evidence_type": "COUNTEREVIDENCE", "claim": "Security review and stakeholder consensus extend projects.", "implication": "The segment may violate a short time-to-revenue constraint.", "source_name": "Synthetic procurement study", "source_url": "https://procurement.example/e017", "published_at": "2025-09-01", "accessed_at": "2026-07-10", "freshness_class": "market"},
+    {"evidence_id": "E018", "candidate": "EU Series B SaaS companies replacing manual RevOps workflows", "evidence_type": "FACT", "claim": "The fixture assumes strong expansion potential.", "source_name": "Synthetic SaaS market report", "source_url": "https://saas.example/e018", "published_at": "2025-11-15", "accessed_at": "2026-07-10", "freshness_class": "market"}
+  ]
+}
+

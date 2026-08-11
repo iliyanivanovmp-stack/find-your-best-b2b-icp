@@ -1,0 +1,73 @@
+{
+  "selected_winner": "US e-commerce brands with 20-100 staff and rising support volume",
+  "winner_justification": [
+    "The candidate has the highest reproducible weighted score at 8.05.",
+    "Its pain, delivery fit, reachability, and current trigger evidence are stronger than the alternatives.",
+    "Customized commerce stacks remain material counterevidence and require integration discovery before a fixed scope."
+  ],
+  "candidate_summaries": [
+    {"candidate": "US e-commerce brands with 20-100 staff and rising support volume", "summary": "High recurring operations pain with a strong delivery match.", "evidence_ids": ["E001", "E003", "E004"], "counterevidence_ids": ["E005"]},
+    {"candidate": "UK marketing agencies with 10-50 staff and reporting bottlenecks", "summary": "Reachable and fast-moving, but with smaller project economics.", "evidence_ids": ["E007", "E009", "E010"], "counterevidence_ids": ["E011"]},
+    {"candidate": "EU Series B SaaS companies replacing manual RevOps workflows", "summary": "Strong budget and deal size with longer security and consensus cycles.", "evidence_ids": ["E013", "E015", "E016"], "counterevidence_ids": ["E017"]}
+  ],
+  "winner_research": {
+    "phase_1": {
+      "firmographics_economics": "US e-commerce brands with 20-100 staff and sufficient software and service spend.",
+      "technographics": "Commerce, help desk, CRM, and returns systems with accessible integrations.",
+      "buying_committee": {"economic_buyer": "Founder or COO", "champion": "Head of Operations", "technical_buyer": "Operations systems owner"},
+      "triggers": ["Support backlog growth", "Operations hiring", "Returns volume spike"],
+      "jobs_to_be_done": {"functional": "Resolve orders and returns across systems", "emotional": "Regain control", "social": "Protect customer trust"}
+    },
+    "phase_2": {
+      "stuck_kpis": ["First response time", "Resolution time", "Refund cycle time"],
+      "costs": "Manual coordination and avoidable support labor.",
+      "broken_processes": "Order, returns, and support handoffs span disconnected systems.",
+      "failed_attempts": "Additional staff and isolated help desk macros do not repair cross-system handoffs.",
+      "risks": "Customized integrations can expand scope.",
+      "buyer_language": ["Support volume keeps growing faster than the team.", "Returns touch three systems before anyone can answer the customer."],
+      "cost_of_inaction": "More labor, slower customer responses, and preventable churn risk."
+    },
+    "phase_3": {
+      "kpi_targets": [
+        {"metric": "Resolution time", "baseline": "Client-measured baseline required", "assumption": "Thirty percent of delay is handoff time", "formula": "baseline × removable handoff share", "range": "10-30 percent reduction", "sensitivity": "Falls if integration coverage is incomplete", "evidence_ids": ["E001", "E004"]},
+        {"metric": "Manual touches per return", "baseline": "Client-measured baseline required", "assumption": "At least one touch is automatable", "formula": "monthly returns × removable touches", "range": "1-2 fewer touches", "sensitivity": "Depends on exception rate", "evidence_ids": ["E002", "E004"]},
+        {"metric": "Support labor hours", "baseline": "Client-measured baseline required", "assumption": "Saved touches translate into labor capacity", "formula": "saved touches × average handle time", "range": "5-20 percent capacity release", "sensitivity": "Depends on adoption and handle time", "evidence_ids": ["E001", "E005"]}
+      ],
+      "operational_change": "One approved workflow coordinates routine order and return cases across systems.",
+      "budget_source": "Operations improvement or customer support budget.",
+      "proof_required": "A paid pilot showing measured touch and cycle-time reduction.",
+      "stakeholder_wins": {"founder": "Lower operating drag", "operations": "Fewer exceptions", "support": "Faster answers"}
+    },
+    "phase_4": {
+      "roadblocks": ["Integration access", "Exception handling", "Data quality", "Team adoption"],
+      "meddicc": {"metrics": "Resolution time and labor hours", "economic_buyer": "Founder or COO", "decision_criteria": "Fast payback and low disruption", "decision_process": "Discovery, paid pilot, rollout", "identify_pain": "Cross-system support and returns work", "champion": "Head of Operations", "competition": "More staff, macros, or no decision"},
+      "primary_constraint": "Unknown integration and exception complexity.",
+      "pilot": "Automate one high-volume return path with human approval and measure touches and cycle time.",
+      "unknowns": ["Actual monthly volume", "Exception rate", "Integration permissions"]
+    }
+  },
+  "buyer_quotes": [
+    {"phase": "phase_2", "evidence_id": "E001", "quote": "Support volume keeps growing faster than the team."},
+    {"phase": "phase_2", "evidence_id": "E002", "quote": "Returns touch three systems before anyone can answer the customer."}
+  ],
+  "account_signals": [
+    {"company": "Synthetic Commerce Co", "signal": "Operations manager opening", "signal_date": "2026-07-01", "source_url": "https://jobs.example/e003", "likely_buyer": "COO", "false_positive_reason": "The role may support growth rather than fix workflow debt."}
+  ],
+  "sales_handoff": {
+    "industry_sub_niche": "E-commerce brands with material support and returns operations",
+    "employee_band": "20-100",
+    "revenue_band": "Validate against offer price and payback",
+    "geography": "United States",
+    "operating_condition": "Rising support or returns volume across disconnected systems",
+    "required_triggers": ["Operations hiring", "Support backlog growth", "Returns expansion"],
+    "economic_buyer": "Founder or COO",
+    "champion": "Head of Operations or Customer Support",
+    "technology_signals": ["Commerce platform", "Help desk", "CRM or returns platform"],
+    "exclusions": ["No accessible integrations", "Insufficient transaction volume", "Unmet data requirements"],
+    "search_filters": ["United States", "20-100 employees", "e-commerce", "operations hiring", "customer support hiring"]
+  },
+  "access_failures": [],
+  "assumptions": ["The fixture is synthetic and makes no live market claim."],
+  "unresolved_unknowns": ["Real price band", "Actual transaction volume", "Client integration permissions"]
+}
+
