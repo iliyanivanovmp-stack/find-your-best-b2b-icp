@@ -2,7 +2,7 @@
 
 Give your AI agent a product page, service document, or offer URL. This skill compares exactly 3 B2B customer segments, scores each one against the same 7 criteria, and returns one search-ready ICP backed by current sources.
 
-Most ICP exercises end with a broad label such as "agencies" or "SaaS companies." That is not enough to build a lead list, choose a message, or decide who to stop targeting.
+You get a specific segment, not a broad label such as "agencies" or "SaaS companies," so you can build a lead list, choose a message, and decide who to stop targeting.
 
 This skill forces the decision.
 
